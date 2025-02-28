@@ -8,13 +8,13 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客' },
-    { title: '我是一名独立开发者' },
-    { title: '用编程技术开发小软件' },
-    { title: '也承接软件开发项目' },
-    { title: '欢迎联系我' },
-    { title: '一起交流学习' },
-    { title: '共同进步' }
+    { title: '欢迎来到我的博客', url: 'https://guoshunfa.com/about' },
+    { title: '我是一名独立开发者', url: 'https://guoshunfa.com/about' },
+    { title: '用编程技术开发小软件', url: 'https://guoshunfa.com/about' },
+    { title: '也承接软件开发项目', url: 'https://guoshunfa.com/about' },
+    { title: '欢迎联系我', url: 'https://guoshunfa.com/about' },
+    { title: '一起交流学习', url: 'https://guoshunfa.com/about' },
+    { title: '共同进步', url: 'https://guoshunfa.com/about' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -40,7 +40,7 @@ const CONFIG = {
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: true, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
-  //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
+  HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
