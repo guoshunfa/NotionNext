@@ -3,8 +3,7 @@
 const BLOG = {
   // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_PAGE_ID:
-    process.env.NOTION_PAGE_ID ||
-    '1a6c294f1b538088ade6e18a7999acad',
+    process.env.NOTION_PAGE_ID || '1a6c294f1b538088ade6e18a7999acad',
 
   // nav 主题：nav
   // heo 主题：博客（目前博客效果最好的）
