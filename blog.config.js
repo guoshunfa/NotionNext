@@ -81,7 +81,7 @@ const BLOG = {
   OPEN_WRITE_BTN_TEXT: process.env.OPEN_WRITE_BTN_TEXT || '原创不易，完成人机检测，阅读全文', // 【非必填】按钮提示词
   OPEN_WRITE_WHITE_LIST: process.env.OPEN_WRITE_WHITE_LIST || '', // 【非必填】白名单，不需要加密的文章slug，英文逗号隔开。全站其余文章都需要验证码。如果只需要个别文章上锁，请使用黄名单功能
   OPEN_WRITE_YELLOW_LIST: process.env.OPEN_WRITE_YELLOW_LIST || '', // 【非必填】黄名单，优先级最高，开启后只会锁定黄名单中的文章.英文逗号隔开多个。
-  OPEN_WRITE_VALIDITY_DURATION: process.env.OPEN_WRITE_VALIDITY_DURATION || 24, // 【非必填】验证一次后，阅读权限的持续时长，单位是“小时”，默认是1小时
+  OPEN_WRITE_VALIDITY_DURATION: process.env.OPEN_WRITE_VALIDITY_DURATION || 240, // 【非必填】验证一次后，阅读权限的持续时长，单位是“小时”，默认是1小时
 }
 
 module.exports = BLOG
